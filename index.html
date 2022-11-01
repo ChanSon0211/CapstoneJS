@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberPhone-CapStone</title>
+  <!-- Font GG -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <!-- Font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Own carousel -->
+  <link rel="stylesheet" href="./vendor/owl_carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="./vendor/owl_carousel/owl.theme.default.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="./css/style.css">
+
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">CyberPhone</a>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a  href="#"><i class="logobuy fa-solid fa-cart-shopping"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="carousel">
+    <main class="main">
+      <div class="container">
+        <div class="info">
+          <h2>CyberPhone</h2>
+          <h3>Best Smartphone in the year 2022</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora at repudiandae, cupiditate aut animi
+            molestiae sit culpa magnam quis illum?</p>
+          <div class="btns">
+            <button class="btn-info">More Info</button>
+            <button class="btn-shop">Shop</button>
+          </div>
+
+
+        </div>
+        <img src="./img/product-header2.png" alt="">
+
+
+      </div>
+    </main>
+
+
+  </section>
+
+  <!-- product->
+
+     -->
+  <section class="product">
+    <div class="container">
+      <h2 class="title">--Featured Product</h2>
+   
+
+  
+      <select class="select" id="choice" onchange="typeItem()">
+        <option value="All">All</option>
+        <option value="Apple">Apple</option>
+        <option value="Samsung">Samsung</option>
+      </select>
+
+    <div id="renderhtml" class="sidebar__content product-nav">
+    
+    </div>
+ 
+
+
+
+
+        <!-- <div class="product-items">
+
+          <img style="width:100%;" src="./img/product2.png" alt="">
+          <div class="product-item-text">
+            <h2 style="font-weight: bold; font-size: 18px;"> IphoneX</h2>
+            <p><span>99.99$</span></p>
+          </div>
+          <button class="btn">Thêm vào giỏ hàng</button>
+        </div>
+
+        <div class="product-items">
+          <img style="width:100%;" src="./img/product2.png" alt="">
+          <div class="product-item-text">
+            <h2 style="font-weight: bold; font-size: 25px;"> IphoneX</h2>
+            <p><span>99.99$</span></p>
+          </div>
+          <button class="btn">Thêm vào giỏ hàng</button>
+        </div>
+        <div class="product-items">
+
+          <img style="width:100%;" src="./img/product2.png" alt="">
+          <div class="product-item-text">
+            <h2 style="font-weight: bold; font-size: 25px;"> IphoneX</h2>
+            <p><span>99.99$</span></p>
+          </div>
+          <button class="btn">Thêm vào giỏ hàng</button>
+        </div>
+
+        <div class="product-items">
+          <img style="width:100%;" src="./img/product2.png" alt="">
+          <div class="product-item-text">
+            <h2 style="font-weight: bold; font-size: 25px;"> IphoneX</h2>
+            <p><span>99.99$</span></p>
+          </div>
+          <button class="btn">Thêm vào giỏ hàng</button>
+        </div>
+        <div class="product-items">
+
+          <img style="width:100%;" src="./img/product2.png" alt="">
+          <div class="product-item-text">
+            <h2 style="font-weight: bold; font-size: 25px;"> IphoneX</h2>
+            <p><span>99.99$</span></p>
+          </div>
+          <button class="btn">Thêm vào giỏ hàng</button>
+        </div>
+
+
+        <div class="product-items">
+
+          <img style="width:100%;" src="./img/product2.png" alt="">
+          <div class="product-item-text">
+            <h2 style="font-weight: bold; font-size: 25px;"> IphoneX</h2>
+            <p><span>99.99$</span></p>
+          </div>
+          <button class="btn">Thêm vào giỏ hàng</button>
+        </div>
+
+        <div class="product-items">
+
+          <img style="width:100%;" src="./img/product2.png" alt="">
+          <div class="product-item-text">
+            <h2 style="font-weight: bold; font-size: 25px;"> IphoneX</h2>
+            <p><span>99.99$</span></p>
+          </div>
+          <button class="btn">Thêm vào giỏ hàng</button>
+        </div>
+
+        <div class="product-items">
+
+          <img style="width:100%;" src="./img/product2.png" alt="">
+          <div class="product-item-text">
+            <h2 style="font-weight: bold; font-size: 25px;"> IphoneX</h2>
+            <p><span>99.99$</span></p>
+          </div>
+          <button class="btn">Thêm vào giỏ hàng</button>
+        </div> -->
+     
+
+
+
+
+
+    </div>
+  </section>
+
+
+
+  <div
+  class="modal fade"
+  id="puchaseModal"
+  tabindex="-1"
+  aria-labelledby="puchaseModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-center" id="puchaseModalLabel">
+          Receipt
+        </h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" id="puchaseItem"></div>
+
+      <div class="modal-body" id="totalmoney"></div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#modalOrder"
+          onclick="orderItem()"
+        >
+          Order
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal Order -->
+
+<div
+  class="modal fade"
+  id="modalOrder"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="modalOrderLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div>your order has been placed</div>
+        <hr />
+        <div>Your order-id is: <span id="idDonhang"></span></div>
+        <hr />
+        <div>your order will be delivered to you in 3-5 working days</div>
+
+        <hr />
+        <div>
+          you can pay $ <span id="totalBillMoneys"></span> by card or any
+          online transaction method after the products have been dilivered
+          to you
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-dismiss="modal"
+          onclick="Okey()"
+        >
+          Okay
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+
+
+
+<!-- thanh toán -->
+
+<div id="cart-sidebar" class="cart-sidebar">
+  <div class="cart-header-padding">
+    <div class="cart-header">
+      <p>
+        <span class="cart-title">cart</span>
+        <span id="cart-item" class="items">(1 item)</span>
+      </p>
+      <button id="close-btn">
+        <i class="fa-solid fa-xmark fa-xl"></i>
+      </button>
+    </div>
+  </div>
+  <div id="cart-products" class="cart-products"> </div>
+  <div class="cart-footer">
+    <div class="total">
+      <p>total</p>
+      <p id="total-price">$100</p>
+    </div>
+    <a href="#" class="checkout-link">checkout</a>
+  </div>
+</div>
+
+  <!-- <section class="product">
+    <header class="title">
+      <h2>--Featured Product</h2>
+    </header>
+    <select class="select" id="choice" onchange="phoneList()">
+      <option value="All">---</option>
+      <option value="Apple">Apple</option>
+      <option value="Samsung">Samsung</option>
+    </select>
+    <div id="detailMobile" class="sidebar__content"></div>
+    <main class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col col-6 col-sm-4">
+            <div class="card animate__aninmated animate__fadeInDown" style="width: 18rem;">
+              <img src="./img/product2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cyber Beast
+                  <span>$99.99</span>
+                </li>
+                <li class="list-group-item">Accesory</li>
+
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">.....</a>
+                <a href="#" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col col-6 col-sm-4">
+            <div class="card animate__aninmated animate__fadeInDown" style="width: 18rem;">
+              <img src="./img/product2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cyber Beast
+                  <span>$99.99</span>
+                </li>
+                <li class="list-group-item">Accesory</li>
+
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">.....</a>
+                <a href="#" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-6 col-sm-4">
+            <div class="card animate__aninmated animate__fadeInDown" style="width: 18rem;">
+              <img src="./img/product2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cyber Beast
+                  <span>$99.99</span>
+                </li>
+                <li class="list-group-item">Accesory</li>
+
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">.....</a>
+                <a href="#" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="w-100 d-none d-md-block"></div>
+
+          <div class="col col-6 col-sm-4">
+            <div class="card card-1 animate__aninmated animate__fadeInDown" style="width: 18rem;">
+              <img src="./img/product2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cyber Beast
+                  <span>$99.99</span>
+                </li>
+                <li class="list-group-item">Accesory</li>
+
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">.....</a>
+                <a href="#" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-6 col-sm-4">
+            <div class="card card-2 animate__aninmated animate__fadeInDown" style="width: 18rem;">
+              <img src="./img/product3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cyber Beast
+                  <span>$99.99</span>
+                </li>
+                <li class="list-group-item">Accesory</li>
+
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">.....</a>
+                <a href="#" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-6 col-sm-4">
+            <div class="card animate__aninmated animate__fadeInDown" style="width: 18rem;">
+              <img src="./img/product4.png" class="imagine card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cyber Beast
+                  <span>$99.99</span>
+                </li>
+                <li class="list-group-item">Accesory</li>
+
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">.....</a>
+                <a href="#" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </main>
+  </section> -->
+
+  <!-- modal -->
+
+  <!-- Axios -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"
+    integrity="sha512-0qU9M9jfqPw6FKkPafM3gy2CBAvUWnYVOfNPDYKVuRTel1PrciTj+a9P3loJB+j0QmN2Y0JYQmkBBS8W+mbezg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+  <!-- Own Carousel -->
+  <script src="./vendor/owl_carousel/owl.carousel.min.js"></script>
+  <!-- Modal -->
+  <script src="./modal/cartitem.js"></script>
+ <script src="./modal/modal.js"></script>
+
+  <!-- JS -->
+<script src="./js/index.js"> </script>
+  <!-- <script src="./js/main.js"></script> -->
+</body>
+
+</html>
